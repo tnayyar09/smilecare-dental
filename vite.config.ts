@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/smilecare-dental/',            // repo ka naam
+  base: '/smilecare-dental/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
